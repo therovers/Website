@@ -1,5 +1,11 @@
 html
-   head
-      title the rovers
-   body
-      h2 the rovers
+    head
+        title The Rovers
+        link(rel="stylesheet" href="dist/assets/styles/main.css")
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab|Josefin+Sans' rel='stylesheet' type='text/css')
+    body
+        include sections/navigation
+        include sections/slider.jade
+        include sections/about.jade
+        include sections/programs.jade
+        include sections/heritage.jade

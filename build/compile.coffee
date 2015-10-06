@@ -10,21 +10,20 @@ server = tinylr()
 
 gulp.task "compile:html", ->
   gulp.src "src/index.jade"
-    .pipe jade { pretty: true }
-    .pipe gulp.dest "./"
-    .pipe livereload server
+  .pipe jade { pretty: true }
+  .pipe gulp.dest "./"
+  .pipe livereload server
 
 gulp.task "compile:css", ->
   gulp.src("src/assets/styles/*.sass")
-    .pipe sass { errLogToConsole: true }
-    .pipe gulp.dest "./dist/assets"
-    .pipe livereload server
+  .pipe sass { errLogToConsole: true }
+  .pipe gulp.dest "./dist/assets/styles"
+  .pipe livereload server
 
 gulp.task "compile:js", ->
-  gulp.src("src/assets/scripts/*.coffee")
-    .pipe coffee {bare: true}
-    .pipe gulp.dest "./dist/assets/"
-    .pipe livereload server
+  gulp.src("src/assets/scripts/*.js")
+  .pipe gulp.dest "./dist/assets/"
+  .pipe livereload server
 
 gulp.task "watch", ->
   server.listen 35729, (err) ->

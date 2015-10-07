@@ -1,3 +1,9 @@
+.clear:after
+  clear: both
+  float: none
+  display: block
+  content: " "
+
 section.programs
   margin: 30px 0 0 30px
   font-family: 'Josefin Sans', sans-serif
@@ -5,10 +11,10 @@ section.programs
   height: 300px
   h2
     padding: 20px
-    font-size: 36px
+    font-size: 30px
     font-weight: 100
   img
-    max-width: 200px
+    max-width: 150px
     max-height: 200px
   div.tld
     background: #FEAC0D
@@ -24,10 +30,16 @@ section.programs
       clear: both
       p
         padding: 20px
+        line-height: 1.3em
+        font-size: 18px
       h2
         font-size: 40px
         font-weight: bolder
-        line-height: 1.5em
+        line-height: 1.3em
+        font-family: 'Arial',monospace
+        margin-top: -100px
+      img
+        padding-right: 60px
   div.sap
     background: #FED586
     width: 65%
@@ -44,12 +56,18 @@ section.programs
       clear: both
       div.box
         clear: both
-      p
-        padding: 20px
       h2
         font-size: 40px
         font-weight: bolder
-        line-height: 1.5em
+        line-height: 1.3em
+        font-family: 'Arial',monospace
+      img
+        padding-left: 200px
+    p
+      padding: 20px 20px 20px 90px
+      font-size: 18px
+      line-height: 1.3em
+      clear: both
 
   .left
     float: left

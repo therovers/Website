@@ -3,9 +3,12 @@ html
         title The Rovers
         link(rel="stylesheet" href="dist/assets/styles/main.css")
         link(href='https://fonts.googleapis.com/css?family=Roboto+Slab|Josefin+Sans' rel='stylesheet' type='text/css')
+        script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
+        script(src="dist/assets/index.js")
     body
-        include sections/navigation
+        include sections/navigation.jade
         include sections/slider.jade
         include sections/about.jade
         include sections/programs.jade
         include sections/heritage.jade
+        include sections/footer.jade

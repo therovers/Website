@@ -21,7 +21,7 @@ gulp.task "compile:css", ->
   .pipe livereload server
 
 gulp.task "compile:js", ->
-  gulp.src("src/assets/scripts/*.js")
+  gulp.src("src/assets/scripts/*.coffee")
   .pipe gulp.dest "./dist/assets/"
   .pipe livereload server
 

@@ -186,13 +186,13 @@ section.about {
   content: " "; }
 
 section.programs {
-  margin: 30px 0 0 30px;
+  margin: 80px 0 0 30px;
   font-family: 'Josefin Sans', sans-serif;
   clear: both;
   height: 300px; }
   section.programs h2 {
     padding: 20px;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 100; }
   section.programs img {
     max-width: 150px;

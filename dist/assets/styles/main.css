@@ -92,13 +92,12 @@ section.about {
     padding: 0 20px;
     font-size: 18px; }
   section.about button {
-    padding: 10px;
+    padding: 8px;
     border: none;
     font-family: 'Josefin Sans', sans-serif;
-    background: #DBA901;
-    font-size: 26px;
-    float: right;
-    margin: 10px 30px 0 0; }
+    background: #FEAC0D;
+    font-size: 22px;
+    margin: 8px 30px 0 20px; }
 
 .navigator {
   box-sizing: border-box;
@@ -107,9 +106,8 @@ section.about {
   top: 0;
   background: white;
   z-index: 10000;
-  font-family: 'Josefin Sans', sans-serif; }
-  .navigator img {
-    padding: 5px; }
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 5px 5px 0 5px; }
   .navigator .navigation-toggle {
     display: none;
     position: absolute;
@@ -145,7 +143,7 @@ section.about {
         margin: 0 auto;
         text-align: center; } }
     .navigator .logo img {
-      max-width: 10em; }
+      max-width: 8em; }
       @media all and (max-width: 768px) {
         .navigator .logo img {
           height: 50px; } }
@@ -169,7 +167,7 @@ section.about {
         color: #000;
         padding: 0.15em 0.5em; }
       .navigator ul li a.current {
-        border-bottom: 2px #fc8c84 solid; }
+        border-bottom: 2px #FEAC0D solid; }
         @media all and (max-width: 768px) {
           .navigator ul li a.current {
             border-bottom: 0; } }

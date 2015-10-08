@@ -9,7 +9,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 body {
   background: transparent;
-  font-family: 'Josefin Sans', sans-serif
+  font-family: 'Josefin Sans', sans-serif;
+  overflow-x:hidden;
 }
 
 article, aside, details, figcaption, figure, footer, header, menu, nav, section {

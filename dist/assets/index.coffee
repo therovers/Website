@@ -1,7 +1,7 @@
 $(document).ready ($) ->
   paraPositions = []
   headerHeight = 123;
-  $('.content.para ').each ->
+  $('.content.para').each ->
     paraPositions.push $(this).offset().top
   $('a').click ->
     window.scrolling = true

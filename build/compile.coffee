@@ -28,6 +28,7 @@ gulp.task "compile:css", ->
 
 gulp.task "compile:js", ->
   gulp.src("src/assets/scripts/*.coffee")
+  .pipe coffee {pretty: true}
   .pipe gulp.dest "./dist/assets/"
   .pipe livereload server
 

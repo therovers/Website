@@ -264,7 +264,7 @@ section.programs {
     float: right; }
 
 section.heritage {
-  margin: 420px 0 0 0; }
+  margin: 100px 0 0 0; }
   section.heritage h2 {
     padding: 20px;
     font-size: 26px;
@@ -304,3 +304,23 @@ section.footer {
   section.footer p.rightpara {
     text-align: right;
     float: right; }
+
+section.stories {
+  padding: 100px 0 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  clear: both; }
+  section.stories h2 {
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 100; }
+  section.stories h2#main {
+    padding-left: 40px; }
+  section.stories .content {
+    color: #ffffff;
+    background: #2a2929; }
+    section.stories .content .yellow_line {
+      height: 2px;
+      width: 120%;
+      background: #FEAC0D; }
+    section.stories .content .inner_content {
+      padding: 20px 40px 20px 40px; }

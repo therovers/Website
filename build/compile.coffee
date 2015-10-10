@@ -21,7 +21,7 @@ gulp.task "compile:pages", ->
   .pipe livereload server
 
 gulp.task "compile:css", ->
-  gulp.src("src/assets/styles/*.sass")
+  gulp.src(["src/assets/styles/*.sass", "src/assets/styles/*.scss"])
   .pipe sass { errLogToConsole: true }
   .pipe gulp.dest "./dist/assets/styles"
   .pipe livereload server

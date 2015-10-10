@@ -4,11 +4,22 @@
     <title>The Rovers</title>
     <link rel="stylesheet" href="dist/assets/styles/main.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Josefin+Sans" rel="stylesheet" type="text/css"/>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="dist/assets/scripts/index.js"></script>
     <script src="dist/assets/config/stories_source.js"></script>
+    <link rel="stylesheet" href="dist/assets/styles/animate.css"/>
+    <script src="dist/assets/lib/wow.min.js"></script>
+    <script>
+      function check_n_bounce() {scroll = $(window).scrollTop();
+      prog_pos = $('#programs').offset().top;
+      if(scroll-prog_pos < -600 || scroll-prog_pos > 600 ){
+      bounce();}
+      }
+      function bounce(){
+      new WOW().init();}
+    </script>
   </head>
-  <body>
+  <body onscroll="check_n_bounce()">
     <section class="navigator">
       <div class="content">
         <h1 class="logo"><a href="#"><img src="dist/assets/images/logo.png"/></a></h1>
@@ -19,7 +30,7 @@
         </button>
         <ul id="nav" class="navigation">
           <li><a href="#about" class="current">About</a></li>
-          <li><a href="#programs">Programs</a></li>
+          <li><a href="#programs" onclick="bounce()">Programs</a></li>
           <li><a href="#programs">Blog</a></li>
           <li><a href="#programs">Support</a></li>
           <li><a href="#heritage">Heritage</a></li>
@@ -59,7 +70,7 @@
     <section id="programs" class="programs">
       <div class="content">
         <h2>Programs we offer</h2>
-        <div class="tld">
+        <div class="tld wow bounceInLeft">
           <div class="content_box">
             <p>founded to facilitate learning, exploring and experiencing of different cultures and heritage. The organisation started with an initiative</p>
             <div class="box clear">
@@ -67,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="sap">
+        <div class="sap wow bounceInRight">
           <div class="content_box">
             <div class="box clear">
               <h2 class="right">Travel <br> Learning <br> Documentation</h2><img src="dist/assets/images/travel.png" align="left" class="left"/>

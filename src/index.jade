@@ -3,10 +3,20 @@ html
         title The Rovers
         link(rel="stylesheet" href="dist/assets/styles/main.css")
         link(href='https://fonts.googleapis.com/css?family=Roboto+Slab|Josefin+Sans' rel='stylesheet' type='text/css')
-        script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
+        script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
         script(src="dist/assets/scripts/index.js")
         script(src="dist/assets/config/stories_source.js")
-    body
+        link(rel="stylesheet" href="dist/assets/styles/animate.css")
+        script(src="dist/assets/lib/wow.min.js")
+        script
+            |function check_n_bounce() {scroll = $(window).scrollTop();
+            |prog_pos = $('#programs').offset().top;
+            |if(scroll-prog_pos < -600 || scroll-prog_pos > 600 ){
+            |bounce();}
+            |}
+            |function bounce(){
+            |new WOW().init();}
+    body(onscroll='check_n_bounce()')
         include sections/navigation.jade
         include sections/slider.jade
         include sections/about.jade

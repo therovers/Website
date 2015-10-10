@@ -310,17 +310,36 @@ section.stories {
   font-family: 'Josefin Sans', sans-serif;
   clear: both; }
   section.stories h2 {
-    padding: 20px;
-    font-size: 36px;
+    padding-bottom: 20px;
+    font-size: 32px;
     font-weight: 100; }
   section.stories h2#main {
     padding-left: 40px; }
   section.stories .content {
     color: #ffffff;
     background: #2a2929; }
-    section.stories .content .yellow_line {
-      height: 2px;
-      width: 120%;
-      background: #FEAC0D; }
+    section.stories .content .yellow_line_top {
+      border-bottom: solid 2px #FEAC0D;
+      padding-top: 20px; }
+    section.stories .content .yellow_line_bottom {
+      border-top: solid 2px #FEAC0D;
+      padding-bottom: 20px; }
     section.stories .content .inner_content {
-      padding: 20px 40px 20px 40px; }
+      padding: 40px 80px 40px 80px; }
+      section.stories .content .inner_content img {
+        border-radius: 50%;
+        width: 280px;
+        height: 280px; }
+      section.stories .content .inner_content p {
+        line-height: 1.8em;
+        width: 70%;
+        font-size: 20px; }
+      section.stories .content .inner_content button {
+        background: #FEAC0D;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 8px;
+        float: right;
+        margin-right: 110px;
+        font-family: 'Josefin Sans', sans-serif; }

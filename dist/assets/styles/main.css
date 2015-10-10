@@ -190,6 +190,16 @@ section.about {
           background-color: #eee;
           border-bottom: #ccc solid 1px; } }
 
+.dangling_img {
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  margin-top: 50px;
+  z-index: 10001; }
+  .dangling_img img {
+    max-width: 100px;
+    max-height: 100px; }
+
 section.programs {
   font-family: 'Josefin Sans', sans-serif;
   margin: 80px 0 0 0; }

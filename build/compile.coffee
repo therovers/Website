@@ -29,7 +29,12 @@ gulp.task "compile:css", ->
 gulp.task "compile:js", ->
   gulp.src("src/assets/scripts/*.coffee")
   .pipe coffee {pretty: true}
-  .pipe gulp.dest "./dist/assets/"
+  .pipe gulp.dest "./dist/assets/scripts/"
+  .pipe livereload server
+
+  gulp.src("src/assets/config/*.coffee")
+  .pipe coffee {pretty: true}
+  .pipe gulp.dest "./dist/assets/config/"
   .pipe livereload server
 
 gulp.task "watch", ->

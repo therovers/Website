@@ -9,15 +9,7 @@
     <script src="dist/assets/config/stories_source.js"></script>
     <link rel="stylesheet" href="dist/assets/styles/animate.css"/>
     <script src="dist/assets/lib/wow.min.js"></script>
-    <script>
-      function check_n_bounce() {scroll = $(window).scrollTop();
-      prog_pos = $('#programs').offset().top;
-      if(scroll-prog_pos < -600 || scroll-prog_pos > 600 ){
-      bounce();}
-      }
-      function bounce(){
-      new WOW().init();}
-    </script>
+    <script src="dist/assets/scripts/init.js"></script>
   </head>
   <body onscroll="check_n_bounce()">
     <section class="navigator">

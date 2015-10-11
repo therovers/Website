@@ -99,7 +99,7 @@ section.about {
     font-weight: 100; }
   section.about p {
     line-height: 1.8em;
-    padding: 0 20px;
+    padding: 0 40px 0 20px;
     font-size: 18px;
     text-align: justify; }
   section.about button {
@@ -210,7 +210,7 @@ section.programs {
     margin: 0 0 0 20px; }
   section.programs img {
     max-width: 150px;
-    max-height: 200px; }
+    max-height: 180px; }
   section.programs div.tld {
     background: #FEAC0D;
     float: left;
@@ -222,13 +222,14 @@ section.programs {
     section.programs div.tld div.content_box {
       clear: both; }
       section.programs div.tld div.content_box p {
-        padding: 20px 60px 20px 20px;
+        padding: 40px 60px 20px 20px;
         line-height: 1.3em;
         font-size: 18px; }
       section.programs div.tld div.content_box h2 {
         font-size: 40px;
         font-weight: bolder;
         line-height: 1.3em;
+        color: #52260f;
         font-family: 'Arial',monospace; }
       section.programs div.tld div.content_box img {
         padding-right: 60px; }
@@ -250,11 +251,12 @@ section.programs {
         font-size: 40px;
         font-weight: bolder;
         line-height: 1.3em;
+        color: #52260f;
         font-family: 'Arial',monospace; }
       section.programs div.sap div.content_box img {
         padding: 45px 20px 20px 160px; }
     section.programs div.sap p {
-      padding: 20px 20px 20px 90px;
+      padding: 10px 20px 20px 90px;
       font-size: 18px;
       line-height: 1.3em;
       clear: both; }
@@ -343,3 +345,7 @@ section.stories {
         float: right;
         margin-right: 110px;
         font-family: 'Josefin Sans', sans-serif; }
+    section.stories .content .milestone img {
+      margin-top: -120px;
+      padding-left: 40px;
+      z-index: 10000; }

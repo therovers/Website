@@ -1,0 +1,116 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+body {
+  background: transparent;
+  font-family: 'Josefin Sans', sans-serif;
+  overflow-x: hidden; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+section.sap_details {
+  font-family: 'Josefin Sans', sans-serif; }
+  section.sap_details .content {
+    background: url("../images/myanmar.jpg") no-repeat fixed top;
+    height: 60%;
+    font-family: 'Josefin Sans', sans-serif; }
+    section.sap_details .content h2 {
+      background: #FEAC0D;
+      left: 25%;
+      top: 25%;
+      font-size: 32px;
+      padding: 15px; }
+  section.sap_details p {
+    padding: 20px 80px 20px 80px;
+    line-height: 2em;
+    text-align: justify; }
+  section.sap_details button {
+    background: #FEAC0D;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    color: #000;
+    float: right;
+    margin: 0 20px 20px 0;
+    font-size: 18px; }
+  section.sap_details button:hover {
+    background: #FED586; }
+  section.sap_details .success_stories, section.sap_details .upcoming_events {
+    padding: 20px 80px 20px 80px; }
+    section.sap_details .success_stories h2, section.sap_details .upcoming_events h2 {
+      font-size: 30px; }
+  section.sap_details .accordion {
+    margin: 50px; }
+    section.sap_details .accordion dt {
+      padding: 10px;
+      border-bottom: 1px solid black; }
+    section.sap_details .accordion dd {
+      padding: 10px; }
+      section.sap_details .accordion dd:last-of-type {
+        border-bottom: 1px solid black; }
+      section.sap_details .accordion dd a {
+        display: block;
+        color: black;
+        font-weight: bold; }
+    section.sap_details .accordion dd {
+      border-top: 0;
+      font-size: 12px; }
+      section.sap_details .accordion dd:last-of-type {
+        border-top: 1px solid white;
+        position: relative;
+        top: -1px; }

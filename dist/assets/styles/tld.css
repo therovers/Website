@@ -63,23 +63,23 @@ hr {
 input, select {
   vertical-align: middle; }
 
-section.about_us {
+section.tld_details {
   font-family: 'Josefin Sans', sans-serif; }
-  section.about_us .content {
-    background: url("../images/about.jpg") no-repeat fixed bottom;
-    height: 40%;
+  section.tld_details .content {
+    background: url("../images/myanmar.jpg") no-repeat fixed top;
+    height: 60%;
     font-family: 'Josefin Sans', sans-serif; }
-    section.about_us .content h2 {
+    section.tld_details .content h2 {
       background: #FEAC0D;
       left: 25%;
       top: 25%;
       font-size: 32px;
       padding: 15px; }
-  section.about_us p {
+  section.tld_details p {
     padding: 20px 80px 20px 80px;
     line-height: 2em;
     text-align: justify; }
-  section.about_us button {
+  section.tld_details button {
     background: #FEAC0D;
     padding: 10px;
     font-family: 'Josefin Sans', sans-serif;
@@ -88,5 +88,28 @@ section.about_us {
     float: right;
     margin: 0 20px 20px 0;
     font-size: 18px; }
-  section.about_us button:hover {
+  section.tld_details button:hover {
     background: #FED586; }
+  section.tld_details .success_stories {
+    padding: 20px 80px 20px 80px; }
+    section.tld_details .success_stories h2 {
+      font-size: 30px; }
+  section.tld_details .accordion {
+    margin: 50px; }
+    section.tld_details .accordion dt, section.tld_details .accordion dd {
+      padding: 10px;
+      border: 1px solid black;
+      border-bottom: 0; }
+      section.tld_details .accordion dt:last-of-type, section.tld_details .accordion dd:last-of-type {
+        border-bottom: 1px solid black; }
+      section.tld_details .accordion dt a, section.tld_details .accordion dd a {
+        display: block;
+        color: black;
+        font-weight: bold; }
+    section.tld_details .accordion dd {
+      border-top: 0;
+      font-size: 12px; }
+      section.tld_details .accordion dd:last-of-type {
+        border-top: 1px solid white;
+        position: relative;
+        top: -1px; }

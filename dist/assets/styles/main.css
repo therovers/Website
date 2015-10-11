@@ -195,8 +195,10 @@ section.about {
   width: 100%;
   position: fixed;
   margin-top: 50px;
-  z-index: 10001; }
+  z-index: 10001;
+  clear: both; }
   .dangling_img img {
+    float: right;
     max-width: 100px;
     max-height: 100px; }
 
@@ -233,6 +235,16 @@ section.programs {
         font-family: 'Arial',monospace; }
       section.programs div.tld div.content_box img {
         padding-right: 60px; }
+      section.programs div.tld div.content_box button {
+        padding: 10px;
+        font-size: 16px;
+        background: #52260f;
+        color: #FEAC0D;
+        border: none;
+        font-family: 'Josefin Sans', sans-serif;
+        border-radius: 15px;
+        margin-top: 10px;
+        float: right; }
   section.programs div.sap {
     background: #FED586;
     width: 50%;
@@ -255,6 +267,16 @@ section.programs {
         font-family: 'Arial',monospace; }
       section.programs div.sap div.content_box img {
         padding: 45px 20px 20px 160px; }
+      section.programs div.sap div.content_box button {
+        padding: 10px;
+        font-size: 16px;
+        background: #52260f;
+        color: #FED586;
+        border: none;
+        font-family: 'Josefin Sans', sans-serif;
+        border-radius: 15px;
+        margin-top: 10px;
+        float: left; }
     section.programs div.sap p {
       padding: 10px 20px 20px 90px;
       font-size: 18px;

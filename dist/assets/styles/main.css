@@ -75,7 +75,7 @@ input, select {
 section.slider {
   width: 100%;
   height: 600px;
-  background: url("../images/bg_slider.jpg") no-repeat fixed center;
+  background: url("../images/bg_slider.JPG") no-repeat fixed center;
   background-size: cover;
   text-align: center; }
   section.slider h2 {

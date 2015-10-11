@@ -11,7 +11,7 @@ window.getStories = ->
       heading: "Wat Phnom, Phnom Penh"
       desc: "Wat Phnom (Mountain Pagoda) is a sacred Buddhist pagoda located in Phnom Penh, Cambodia. It is the tallest religious structure in the city as it stands on a small hill. The pagoda was earlier known by the name of Wat Preah Chedey Borapaut."
       link: "link2.html"
-      image: "wat_phnom.jpg"
+      image: "wat_phnom.JPG"
     }
     {
       heading: "Sanctuary of Truth, Pattaya "
@@ -19,6 +19,6 @@ window.getStories = ->
 Bay.  The huge teak building is 105 m high.
 "
       link: "link3.html"
-      image: "truth.jpg"
+      image: "truth.JPG"
     }
   ]

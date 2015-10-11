@@ -15,6 +15,14 @@
 
   link = $('#story_link');
 
+  image.attr("src", "dist/assets/images/" + stories[index].image);
+
+  heading.html(stories[index].heading);
+
+  desc.html(stories[index].desc);
+
+  link.attr("href", stories[index].link);
+
   setInterval(function() {
     image.fadeOut('slow', function() {
       image.attr("src", "dist/assets/images/" + stories[index].image);

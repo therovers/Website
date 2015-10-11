@@ -6,6 +6,11 @@ heading = $('#story_heading')
 desc = $('#story_desc')
 link = $('#story_link')
 
+image.attr("src", "dist/assets/images/#{stories[index].image}")
+heading.html(stories[index].heading)
+desc.html(stories[index].desc)
+link.attr("href", stories[index].link)
+
 setInterval(->
   image.fadeOut('slow', ->
     image.attr("src", "dist/assets/images/#{stories[index].image}")

@@ -31,9 +31,20 @@
       $('ul li a').removeClass('current');
       return $('ul li a:eq(' + currentParaIndex + ')').addClass('current');
     });
-    return $('.navigation-toggle').click(function() {
+    $('.navigation-toggle').click(function() {
       return $('.navigation').slideToggle();
     });
+    return document.querySelector("body").onscroll = function() {
+      var bounce, prog_pos, scroll;
+      bounce = function() {
+        return new WOW().init();
+      };
+      scroll = $(window).scrollTop();
+      prog_pos = $('#programs').offset().top;
+      if (scroll - prog_pos < -600 || scroll - prog_pos > 600) {
+        return bounce();
+      }
+    };
   });
 
 }).call(this);

@@ -1,3 +1,11 @@
+window.check_n_bounce = ->
+  bounce = ->
+    new WOW().init()
+
+  scroll = $(window).scrollTop()
+  prog_pos = $('#programs').offset().top
+  bounce() if scroll-prog_pos < -600 or scroll-prog_pos > 600
+
 $(document).ready ($) ->
   paraPositions = []
   headerHeight = 123;
@@ -26,11 +34,3 @@ $(document).ready ($) ->
 
   $('.navigation-toggle').click ()->
     $('.navigation').slideToggle()
-
-  document.querySelector("body").onscroll = ->
-    bounce = ->
-      new WOW().init()
-
-    scroll = $(window).scrollTop()
-    prog_pos = $('#programs').offset().top
-    bounce() if scroll-prog_pos < -600 or scroll-prog_pos > 600

@@ -8,7 +8,7 @@ html
         script(src="dist/assets/config/stories_source.js")
         link(rel="stylesheet" href="dist/assets/styles/animate.css")
         script(src="dist/assets/lib/wow.min.js")
-    body
+    body(onscroll="check_n_bounce()")
         include sections/navigation.jade
         include sections/slider.jade
         include sections/about.jade

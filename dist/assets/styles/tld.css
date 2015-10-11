@@ -90,19 +90,20 @@ section.tld_details {
     font-size: 18px; }
   section.tld_details button:hover {
     background: #FED586; }
-  section.tld_details .success_stories {
+  section.tld_details .success_stories, section.tld_details .upcoming_events {
     padding: 20px 80px 20px 80px; }
-    section.tld_details .success_stories h2 {
+    section.tld_details .success_stories h2, section.tld_details .upcoming_events h2 {
       font-size: 30px; }
   section.tld_details .accordion {
     margin: 50px; }
-    section.tld_details .accordion dt, section.tld_details .accordion dd {
+    section.tld_details .accordion dt {
       padding: 10px;
-      border: 1px solid black;
-      border-bottom: 0; }
-      section.tld_details .accordion dt:last-of-type, section.tld_details .accordion dd:last-of-type {
+      border-bottom: 1px solid black; }
+    section.tld_details .accordion dd {
+      padding: 10px; }
+      section.tld_details .accordion dd:last-of-type {
         border-bottom: 1px solid black; }
-      section.tld_details .accordion dt a, section.tld_details .accordion dd a {
+      section.tld_details .accordion dd a {
         display: block;
         color: black;
         font-weight: bold; }

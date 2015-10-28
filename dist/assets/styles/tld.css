@@ -125,3 +125,13 @@ section.tld_details {
         border-top: 1px solid white;
         position: relative;
         top: -1px; }
+  section.tld_details .upcoming_events article h2 {
+    font-size: 23px;
+    padding: 20px;
+    border-bottom: solid #cccccc 1px; }
+  section.tld_details .upcoming_events article p {
+    padding: 20px; }
+    section.tld_details .upcoming_events article p img {
+      width: 300px;
+      height: 300px;
+      padding: 0 20px; }

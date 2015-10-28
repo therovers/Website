@@ -1,0 +1,92 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+body {
+  background: transparent;
+  font-family: 'Josefin Sans', sans-serif;
+  overflow-x: hidden; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+section.wat_pho {
+  font-family: 'Josefin Sans', sans-serif; }
+  section.wat_pho .content {
+    background: url("../images/wat_pho_bg_2.JPG") no-repeat fixed bottom;
+    height: 60%;
+    font-family: 'Josefin Sans', sans-serif; }
+    section.wat_pho .content h2 {
+      background: #FEAC0D;
+      left: 25%;
+      top: 25%;
+      font-size: 32px;
+      padding: 15px; }
+  section.wat_pho p {
+    padding: 20px 80px 20px 80px;
+    line-height: 2em;
+    text-align: justify; }
+  section.wat_pho button {
+    background: #FEAC0D;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    color: #000;
+    float: right;
+    margin: 0 20px 20px 0;
+    font-size: 18px; }
+  section.wat_pho button:hover {
+    background: #FED586; }

@@ -63,28 +63,26 @@ hr {
 input, select {
   vertical-align: middle; }
 
-section.thailand_story {
+section.support {
   font-family: 'Josefin Sans', sans-serif; }
-  section.thailand_story .content {
-    background: url("../images/thailand_story.JPG") no-repeat fixed top;
-    height: 60%;
+  section.support .content {
     font-family: 'Josefin Sans', sans-serif; }
-    section.thailand_story .content h2 {
+    section.support .content h2 {
       background: #FEAC0D;
       left: 25%;
       top: 25%;
       font-size: 32px;
       padding: 15px; }
-      section.thailand_story .content h2 p {
+      section.support .content h2 p {
         float: right;
         margin: auto;
         font-size: 22px;
         padding: 0 20px; }
-  section.thailand_story p, section.thailand_story ul {
-    padding: 20px 80px 20px 80px;
+  section.support p, section.support ul {
+    padding: 15px 80px 0 80px;
     line-height: 2em;
     text-align: justify; }
-  section.thailand_story button {
+  section.support button {
     background: #FEAC0D;
     padding: 10px;
     font-family: 'Josefin Sans', sans-serif;
@@ -93,5 +91,45 @@ section.thailand_story {
     float: right;
     margin: 0 20px 20px 0;
     font-size: 18px; }
-  section.thailand_story button:hover {
+  section.support button:hover {
     background: #FED586; }
+  section.support .success_stories, section.support .upcoming_events {
+    padding: 20px 80px 20px 80px; }
+    section.support .success_stories h2, section.support .upcoming_events h2 {
+      font-size: 30px; }
+  section.support .accordion {
+    margin: 50px; }
+    section.support .accordion dt {
+      padding: 10px;
+      border-bottom: 1px solid black;
+      font-size: 24px; }
+    section.support .accordion dd {
+      padding: 10px; }
+      section.support .accordion dd:last-of-type {
+        border-bottom: 1px solid black; }
+      section.support .accordion dd p {
+        font-size: 16px; }
+        section.support .accordion dd p img {
+          padding: 20px; }
+      section.support .accordion dd a {
+        display: block;
+        color: black;
+        font-weight: bold;
+        text-decoration: none; }
+    section.support .accordion dd {
+      border-top: 0;
+      font-size: 12px; }
+      section.support .accordion dd:last-of-type {
+        border-top: 1px solid white;
+        position: relative;
+        top: -1px; }
+  section.support .upcoming_events article h2 {
+    font-size: 23px;
+    padding: 20px;
+    border-bottom: solid #cccccc 1px; }
+  section.support .upcoming_events article p {
+    padding: 20px; }
+    section.support .upcoming_events article p img {
+      width: 300px;
+      height: 300px;
+      padding: 0 20px; }

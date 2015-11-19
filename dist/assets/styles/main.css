@@ -197,10 +197,11 @@ section.about {
   margin-top: 50px;
   z-index: 10001;
   clear: both; }
-  .dangling_img img {
-    float: right;
-    max-width: 100px;
-    max-height: 100px; }
+  .dangling_img .social_box {
+    float: left;
+    max-width: 40px;
+    height: 110px;
+    background: #cc0000; }
 
 section.programs {
   font-family: 'Josefin Sans', sans-serif;

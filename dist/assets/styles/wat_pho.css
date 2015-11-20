@@ -80,10 +80,13 @@ section.wat_pho {
         margin: auto;
         font-size: 22px;
         padding: 0 20px; }
-  section.wat_pho p {
+  section.wat_pho p, section.wat_pho ol {
     padding: 20px 80px 20px 80px;
     line-height: 2em;
     text-align: justify; }
+  section.wat_pho h3 {
+    padding: 20px;
+    font-size: 23px; }
   section.wat_pho button {
     background: #FEAC0D;
     padding: 10px;

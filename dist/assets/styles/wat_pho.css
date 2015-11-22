@@ -84,6 +84,9 @@ section.wat_pho {
     padding: 20px 80px 20px 80px;
     line-height: 2em;
     text-align: justify; }
+    section.wat_pho p span, section.wat_pho ol span {
+      font-weight: bolder;
+      font-size: 22px; }
     section.wat_pho p img, section.wat_pho ol img {
       padding: 30px 30px 30px 90px; }
   section.wat_pho h3 {

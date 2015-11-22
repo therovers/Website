@@ -84,6 +84,9 @@ section.wat_phnome {
     padding: 10px 80px 0 80px;
     line-height: 2em;
     text-align: justify; }
+    section.wat_phnome p span, section.wat_phnome ol span, section.wat_phnome blockquote span {
+      font-weight: bolder;
+      font-size: 22px; }
   section.wat_phnome button {
     background: #FEAC0D;
     padding: 10px;

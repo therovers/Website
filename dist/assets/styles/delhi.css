@@ -81,6 +81,10 @@ section.delhi {
         font-size: 22px;
         line-height: 2em;
         padding: 0 20px; }
+        section.delhi .content h2 p a {
+          color: #52260f; }
+        section.delhi .content h2 p a:hover {
+          color: #ffffff; }
   section.delhi img {
     padding: 20px; }
   section.delhi p, section.delhi ol, section.delhi blockquote {

@@ -80,6 +80,10 @@ section.tld_details {
         margin: auto;
         font-size: 22px;
         padding: 0 20px; }
+        section.tld_details .content h2 p a {
+          color: #52260f; }
+        section.tld_details .content h2 p a:hover {
+          color: #ffffff; }
   section.tld_details p {
     padding: 20px 80px 20px 80px;
     line-height: 2em;

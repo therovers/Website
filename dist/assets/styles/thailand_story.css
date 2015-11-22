@@ -80,6 +80,10 @@ section.thailand_story {
         margin: auto;
         font-size: 22px;
         padding: 0 20px; }
+        section.thailand_story .content h2 p a {
+          color: #52260f; }
+        section.thailand_story .content h2 p a:hover {
+          color: #ffffff; }
   section.thailand_story p, section.thailand_story ul {
     padding: 20px 80px 20px 80px;
     line-height: 2em;

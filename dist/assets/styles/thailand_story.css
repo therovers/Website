@@ -84,6 +84,9 @@ section.thailand_story {
     padding: 20px 80px 20px 80px;
     line-height: 2em;
     text-align: justify; }
+    section.thailand_story p span, section.thailand_story ul span {
+      font-weight: bolder;
+      font-size: 22px; }
   section.thailand_story button {
     background: #FEAC0D;
     padding: 10px;

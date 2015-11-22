@@ -322,12 +322,32 @@ section.footer {
   background: #000000;
   color: white;
   margin-bottom: 0; }
-  section.footer p {
-    padding: 20px;
-    line-height: 1.5em; }
-  section.footer p.leftpara {
-    text-align: left;
-    float: left; }
+  section.footer div.content {
+    width: 80%;
+    text-align: left; }
+    section.footer div.content img {
+      padding: 20px; }
+    section.footer div.content p {
+      padding-top: 20px;
+      line-height: 1.5em; }
+      section.footer div.content p span {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 20px; }
+    section.footer div.content h2 {
+      padding: 5px; }
+    section.footer div.content div.content-1 {
+      float: left;
+      width: 33%; }
+    section.footer div.content div.content-2 {
+      float: right;
+      width: 67%; }
+      section.footer div.content div.content-2 div.content-2-1 {
+        float: left;
+        width: 50%; }
+      section.footer div.content div.content-2 div.content-2-2 {
+        float: right;
+        width: 50%; }
   section.footer p.rightpara {
     text-align: right;
     float: right; }

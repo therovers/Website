@@ -154,7 +154,8 @@ section.about {
         margin: 0 auto;
         text-align: center; } }
     .navigator .logo img {
-      max-width: 8em; }
+      max-width: 8em;
+      padding-bottom: 5px; }
       @media all and (max-width: 768px) {
         .navigator .logo img {
           height: 50px; } }

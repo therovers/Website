@@ -322,7 +322,8 @@ section.heritage {
 section.footer {
   background: #000000;
   color: white;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding-top: 20px; }
   section.footer div.content {
     width: 80%;
     text-align: left; }

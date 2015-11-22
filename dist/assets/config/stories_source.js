@@ -18,8 +18,8 @@
         image: "truth.jpg"
       }, {
         heading: "New Delhi, India ",
-        desc: "New Delhi, our very own National Capital which sits on reformed lands of 7 ancient cities, is an architectural treasure, although the number of cities, it is believed to be an amalgamation of, is highly debatable. From Pandavas's Indraprastha to Lutyens's Delhi, the nature of each city that is contained within, is significantly different from one another.Although some would argue that it is not possible to grasp its architectural magnificence in such a short time, it is also necessary to point out that no amount of time is enough to understand the city and its history. From history to politics.",
-        link: "souvenirs.html",
+        desc: "New Delhi, our very own National Capital which sits on reformed lands of 7 ancient cities, is an architectural treasure, although the number of cities, it is believed to be an amalgamation of, is highly debatable. From Pandavas's Indraprastha to Lutyens's Delhi, the nature of each city that is contained within, is significantly different from one another.",
+        link: "delhi.html",
         image: "delhi_3.jpg"
       }
     ];

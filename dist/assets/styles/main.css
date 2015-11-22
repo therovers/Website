@@ -348,6 +348,14 @@ section.footer {
       section.footer div.content div.content-2 div.content-2-2 {
         float: right;
         width: 50%; }
+        section.footer div.content div.content-2 div.content-2-2 #social_icons {
+          list-style: none;
+          display: inline-block;
+          padding-top: 10px; }
+          section.footer div.content div.content-2 div.content-2-2 #social_icons li {
+            display: inline; }
+            section.footer div.content div.content-2 div.content-2-2 #social_icons li img {
+              padding: 0; }
   section.footer p.rightpara {
     text-align: right;
     float: right; }

@@ -91,6 +91,12 @@ section.thailand_story {
     section.thailand_story p span, section.thailand_story ul span {
       font-weight: bolder;
       font-size: 22px; }
+  section.thailand_story ul#img_list {
+    display: inline-block;
+    list-style: none; }
+    section.thailand_story ul#img_list li {
+      display: inline;
+      padding: 20px; }
   section.thailand_story button {
     background: #FEAC0D;
     padding: 10px;

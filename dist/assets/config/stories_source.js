@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   window.getStories = function() {
     return [
       {
@@ -19,7 +19,7 @@
       }, {
         heading: "New Delhi, India ",
         desc: "New Delhi, our very own National Capital which sits on reformed lands of 7 ancient cities, is an architectural treasure, although the number of cities, it is believed to be an amalgamation of, is highly debatable. From Pandavas's Indraprastha to Lutyens's Delhi, the nature of each city that is contained within, is significantly different from one another.",
-        link: "delhi.html",
+        link: "souvenirs.html",
         image: "delhi_3.jpg"
       }
     ];

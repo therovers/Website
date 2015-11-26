@@ -69,8 +69,22 @@ section.wat_pho {
     background: url("../images/wat_pho_bg_2.jpg") no-repeat fixed bottom;
     height: 60%;
     font-family: 'Josefin Sans', sans-serif; }
+
 section.wat_pho.jaipur .content {
     background: url("../images/jaipur_c.jpg") no-repeat fixed bottom; }
+
+section.wat_pho.kumbalgarh .content {
+    background: url("../images/kumbalgarh_c.jpg") no-repeat fixed bottom; }
+
+section.wat_pho.pichola .content {
+    background: url("../images/pichola_c.jpg") no-repeat fixed bottom; }
+
+section.wat_pho.mehrangarh .content {
+    background: url("../images/mehrangarh_c.jpg") no-repeat fixed bottom; }
+
+section.wat_pho.kuldhara .content {
+    background: url("../images/kuldhara_c.jpg") no-repeat fixed bottom; }
+
     section.wat_pho .content h2 {
       background: #FEAC0D;
       left: 25%;

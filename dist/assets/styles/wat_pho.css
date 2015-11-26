@@ -69,6 +69,8 @@ section.wat_pho {
     background: url("../images/wat_pho_bg_2.jpg") no-repeat fixed bottom;
     height: 60%;
     font-family: 'Josefin Sans', sans-serif; }
+section.wat_pho.jaipur .content {
+    background: url("../images/jaipur_c.jpg") no-repeat fixed bottom; }
     section.wat_pho .content h2 {
       background: #FEAC0D;
       left: 25%;

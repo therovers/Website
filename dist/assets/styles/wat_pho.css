@@ -71,19 +71,19 @@ section.wat_pho {
     font-family: 'Josefin Sans', sans-serif; }
 
 section.wat_pho.jaipur .content {
-    background: url("../images/jaipur_c.jpg") no-repeat fixed bottom; }
+    background: url("../images/jaipur_c.jpg") no-repeat fixed center; }
 
 section.wat_pho.kumbalgarh .content {
-    background: url("../images/kumbalgarh_c.jpg") no-repeat fixed bottom; }
+    background: url("../images/kumbalgarh_c.jpg") no-repeat fixed center; }
 
 section.wat_pho.pichola .content {
-    background: url("../images/pichola_c.jpg") no-repeat fixed bottom; }
+    background: url("../images/pichola_c.jpg") no-repeat fixed center; }
 
 section.wat_pho.mehrangarh .content {
-    background: url("../images/mehrangarh_c.jpg") no-repeat fixed bottom; }
+    background: url("../images/mehrangarh_c.jpg") no-repeat fixed center; }
 
 section.wat_pho.kuldhara .content {
-    background: url("../images/kuldhara_c.jpg") no-repeat fixed bottom; }
+    background: url("../images/kuldhara_c.jpg") no-repeat fixed center; }
 
     section.wat_pho .content h2 {
       background: #FEAC0D;
@@ -108,7 +108,7 @@ section.wat_pho.kuldhara .content {
       font-weight: bolder;
       font-size: 22px; }
     section.wat_pho p img, section.wat_pho ol img {
-      padding: 30px 30px 30px 30px; position:sticky; left:20%; }
+      padding: 30px 30px 30px 90px; }
   section.wat_pho h3 {
     padding: 20px;
     font-size: 23px; }

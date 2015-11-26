@@ -92,7 +92,7 @@ section.wat_pho {
       font-weight: bolder;
       font-size: 22px; }
     section.wat_pho p img, section.wat_pho ol img {
-      padding: 30px 30px 30px 90px; }
+      padding: 30px 30px 30px 30px; position:sticky; left:20%; }
   section.wat_pho h3 {
     padding: 20px;
     font-size: 23px; }

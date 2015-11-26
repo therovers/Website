@@ -84,7 +84,7 @@ section.wat_pho {
           color: #52260f; }
         section.wat_pho .content h2 p a:hover {
           color: #ffffff; }
-  section.wat_pho p, section.wat_pho ol {
+  section.wat_pho p, section.wat_pho ol, section.wat_pho ul {
     padding: 20px 80px 20px 80px;
     line-height: 2em;
     text-align: justify; }
